@@ -1,6 +1,4 @@
-/* -------------------------
-   General Reset & Base
--------------------------- */
+/* General Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -9,15 +7,13 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #0d0d0d; /* Deep black background */
-  color: #f0e7ff; /* Soft lavender text */
+  background: #0d0d0d; 
+  color: #f0e7ff; 
   line-height: 1.6;
   padding: 20px;
 }
 
-/* -------------------------
-    Header & Navbar
--------------------------- */
+/*  Header & Navbar */
 header {
   background: linear-gradient(to right, #6a0dad, #9d00ff);
   color: white;
@@ -61,9 +57,7 @@ nav a:hover {
   color: #6a0dad;
 }
 
-/* -------------------------
-    Sections
--------------------------- */
+/* Sections */
 section {
   background: #1a1a1a;
   margin: 25px auto;
@@ -96,9 +90,7 @@ section ul {
   text-decoration: underline;
 }
 
-/* -------------------------
-   Contact Form
--------------------------- */
+/* Contact Form */
 form label {
   display: block;
   margin-top: 15px;
@@ -133,9 +125,7 @@ form button:hover {
   color: #1a1a1a;
 }
 
-/* -------------------------
-    Footer
--------------------------- */
+/* Footer */
 footer {
   text-align: center;
   margin-top: 40px;
@@ -144,9 +134,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* -------------------------
-    Responsive
--------------------------- */
+/* Responsive */
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
